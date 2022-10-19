@@ -1,13 +1,12 @@
-#include "main"
-#include <unisted.h>
+#include "main.h"
 
 /**
- * _putchar - writes the character c to stdout
- * @c: the character to print
- * Return: On 1
- */
+ * main - writes the character c to stdout
+ * Return: 1 is success
+ **/
 
 int _putchar(char c)
 {
 	return (write (1, &c, 1));
 }
+"
