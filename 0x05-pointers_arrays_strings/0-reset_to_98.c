@@ -6,19 +6,19 @@
  * Return: success 0
  */
 
-int main(void)
+void reset_to_98(int *n)
 {
-    int n;
+    int x;
     int *p;
 
-    n = 402;
-    p = &n;
+    x = 402;
+    *p = &n;
 
-    putchar(n);
+    putchar(x);
 
     *p = 98;
 
-    putchar(n);
+    putchar(x);
     putchar('\n');
-    return (0);
+    
 }
